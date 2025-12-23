@@ -1,12 +1,12 @@
 #include<stdio.h>
-
+//display square of a character version 2
 int main(){
 	char input;
-	int num,i;
-	scanf("%c %d",&input,&num);
-	for(i=0;i<num;i++){
+	int colum,row,i;
+	scanf("%c %d %d",&input,&colum,&row);
+	for(i=0;i<row;i++){
 		int j;
-		for(j=0;j<num;j++){
+		for(j=0;j<colum;j++){
 			printf("%c",input);
 		}
 		printf("\n");
